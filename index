@@ -1,1 +1,38 @@
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTzKqL5IjB9VtGkRny7cGZjx5EwtfRyk2uAf6F7F6N8hErtFtdxtNl4UGGfYxNMbMxlEv0WhZ1V9eY_z/embed?start=true&loop=true&delayms=10000" width="960" height="569" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Slides Fullscreen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="openSlides()">Mulai</button>
+  <script>
+    function openSlides() {
+      window.open("https://docs.google.com/presentation/d/1eLUeQeRLfotwc_f_7aa7PCFvR3OFQu3uDZu3GuyIIUQ/present", "_blank");
+    }
+  </script>
+</body>
+</html>
